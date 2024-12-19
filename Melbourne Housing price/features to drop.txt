@@ -1,0 +1,12 @@
+features to drop:
+Lotfrontage(maybe-too many NAs), street, alley(No data at all), utilities, roofmatl,MasVnrType,bsmtqual, heating, poolqc, fence, miscFeatures
+
+features to Impute:
+Lotfrontage,
+
+features to Onehotencode:
+MSzoning,Lotshape, landcontour, lotconfig,neighbourhood, condition1, condition2, bldgetype, roofstyle, exterior1, exterior2, foundation, bsmtFinType, HeatingQc
+, centralair, electrica, functional, fireplacequ, garagetype, paveddrive, saletype
+
+features to ordinalencode:
+landslope, housestyle, garagefinish,  garagequal, garagecond,  kitchenqual, ExterQual, ExterCond, salecondition
